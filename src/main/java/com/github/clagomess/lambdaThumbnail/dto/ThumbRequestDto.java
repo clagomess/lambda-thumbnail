@@ -1,7 +1,7 @@
 package com.github.clagomess.lambdaThumbnail.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.github.clagomess.javautil.FormatUtil;
+import com.github.clagomess.lambdaThumbnail.util.FormatUtil;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 
