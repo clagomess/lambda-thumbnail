@@ -18,4 +18,8 @@ public class ThumbRequestDto {
     public String getDesHashThumb(){
         return FormatUtil.formatMd5(String.format("%s%s%s%s", crop, width, height, desHashPai));
     }
+
+    public boolean isEmpty(){
+        return crop == null && width == null && height == null && desHashPai == null && desArquivo == null;
+    }
 }
